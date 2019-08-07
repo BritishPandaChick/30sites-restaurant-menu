@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title>La Ratatouille Bistro</title>
-    <link rel="stylesheet" media="screen and (min-width: 1025px)" href="assets/css/style.css" type="text/css">
-    <link rel="stylesheet" media="screen and (min-width: 641px) and (max-width: 1024px)" href="assets/css/resposnive.css" type="text/css">
-    <link rel="stylesheet" media="screen and (max-width: 640px)" href="assets/css/mobile.css" type="text/css">
+    <link href="assets/css/style.css" media="screen and (min-width: 1025px)" rel="stylesheet" type="text/css">
+    <link href="assets/css/mobile.css" media="screen and (max-width: 640px)" rel="stylesheet" type="text/css">
+    <link href="assets/css/responsive.css" media="screen and (min-width: 641px) and (max-width: 1024px)" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Barriecito|Lora:400,700&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/all.min.css">
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <header>
           <h1 class="navbar-brand">La Ratatouille</h1>
@@ -36,80 +36,108 @@
 
       <main>
         <section id="info">
-          <h2>La Ratatouille</h2>
-          <h3>Upscale French Dining</h3>
-          <p>What a triumph for him, as she often thought, could he know that the
-            proposals which she had proudly spurned only four months ago, would
-            now have been most gladly and gratefully received! He was as generous,
-            she doubted not, as the most generous of his sex; but while he was mortal,
-            there must be a triumph.</p>
-          <h4>Reservations are strongly encouraged.</h4>
-          <button class="btn btn-info">Reserve Table</button>
-        </section>
-
-        <section id="about">
-          <h2>About</h2>
-          <p>What a triumph for him, as she often thought, could he know that the
-            proposals which she had proudly spurned only four months ago, would
-            now have been most gladly and gratefully received! He was as generous,
-            she doubted not, as the most generous of his sex; but while he was mortal,
-            there must be a triumph.</p>
-        </section>
-
-        <section id="hours">
-          <h2>Hours</h2>
-          <p>Monday-Thursday: 4pm-10pm</p>
-          <p>Friday-Saturday: 4pm-11pm</p>
-          <p>Sunday: 3pm-10pm</p>
-        </section>
-
-        <section id="menu">
-          <h2>Menu</h2>
-          <div class="dinner-menu">
-            <div class="entrees"></div>
-            <div class="main-course">
-              <h3>Ratatouille<span>$5</span></h3>
-            </div>
-
-            <div class="desserts">
-              <h3>Creme brulee<span>$7</span></h3>
-              <h3>Cheese plate<span>$10</span></h3>
-              <h3>Tarte Tatin<span>$8</span></h3>
-              <h3>Souffle<span>$10</span></h3>
-              <h3>Floating island<span>$10</span></h3>
-            </div>
-          </div>
-          <button class="btn btn-info">See Daily Specials</button>
-        </section>
-
-        <section id="events">
-          <h2>Wine Tasting</h2>
-          <p>What a triumph for him, as she often thought, could he know that the
-            proposals which she had proudly spurned only four months ago, would
-            now have been most gladly and gratefully received! He was as generous,
-            she doubted not, as the most generous of his sex; but while he was mortal,
-            there must be a triumph.</p>
-          <button class="btn btn-info">Get Tickets</button>
-        </section>
-
-        <section id="new">
-          <h2>Brand New!</h2>
-          <div class="col-6">
-          <h3>Special Events</h3>
-          <p>What a triumph for him, as she often thought, could he know that the
-            proposals which she had proudly spurned only four months ago, would
-            now have been most gladly and gratefully received! He was as generous,
-            she doubted not, as the most generous of his sex; but while he was mortal,
-            there must be a triumph.</p>
-          </div>
-
-          <div class="col-6">
-            <h3>Seasonal Specials</h3>
+          <div class="container">
+            <h2>La Ratatouille</h2>
+            <h3>Upscale French Dining</h3>
             <p>What a triumph for him, as she often thought, could he know that the
               proposals which she had proudly spurned only four months ago, would
               now have been most gladly and gratefully received! He was as generous,
               she doubted not, as the most generous of his sex; but while he was mortal,
               there must be a triumph.</p>
+            <h4>Reservations are strongly encouraged.</h4>
+            <button class="btn btn-info">Reserve Table</button>
+          </div>
+        </section>
+
+        <section id="about">
+          <div class="container">
+            <h2>About</h2>
+            <p>What a triumph for him, as she often thought, could he know that the
+              proposals which she had proudly spurned only four months ago, would
+              now have been most gladly and gratefully received! He was as generous,
+              she doubted not, as the most generous of his sex; but while he was mortal,
+              there must be a triumph.</p>
+          </div>
+        </section>
+
+        <section id="hours">
+          <div class="container">
+            <h2>Hours</h2>
+            <p>Monday-Thursday: 4pm-10pm</p>
+            <p>Friday-Saturday: 4pm-11pm</p>
+            <p>Sunday: 3pm-10pm</p>
+          </div>
+        </section>
+
+        <section id="menu">
+          <div class="container">
+            <h2>Menu</h2>
+            <div class="dinner-menu">
+              <div class="row">
+                <div class="entrees col-4">
+                  <h3>Entrees</h3>
+                  <h4>Soupe a l'oignon<span>$5</span></h4>
+                  <h4>Quiche<span>$9</span></h4>
+                  <h4>Gougere<span>$7</span></h4>
+                  <h4>Croque Monsieur<span>$5</span></h4>
+                  <h4>Soup de Gusteau<span>$5</span></h4>
+                </div>
+
+                <div class="main-course col-4">
+                  <h3>Plat Principal</h3>
+                  <h4>Ratatouille<span>$5</span></h4>
+                  <h4>Sweetbreads a la Gusteau<span>$10</span></h4>
+                  <h4>Boeuf Bourguignon<span>$10</span></h4>
+                  <h4>Pot au feu<span>$10</span></h4>
+                  <h4>Steak fries<span>$10</span></h4>
+                </div>
+
+                <div class="desserts col-4">
+                  <h3>Desserts</h3>
+                  <h4>Creme brulee<span>$7</span></h4>
+                  <h4>Cheese plate<span>$10</span></h4>
+                  <h4>Tarte Tatin<span>$8</span></h4>
+                  <h4>Souffle<span>$10</span></h4>
+                  <h4>Floating island<span>$10</span></h4>
+                </div>
+              </div>
+              </div>
+              <button class="btn btn-info">See Daily Specials</button>
+          </div>
+        </section>
+
+        <section id="events">
+          <div class="container">
+            <h2>Wine Tasting</h2>
+            <p>What a triumph for him, as she often thought, could he know that the
+              proposals which she had proudly spurned only four months ago, would
+              now have been most gladly and gratefully received! He was as generous,
+              she doubted not, as the most generous of his sex; but while he was mortal,
+              there must be a triumph.</p>
+            <button class="btn btn-info">Get Tickets</button>
+          </div>
+        </section>
+
+        <section id="new">
+          <div class="container">
+            <h2>Brand New!</h2>
+            <div class="col-6">
+              <h3>Special Events</h3>
+              <p>What a triumph for him, as she often thought, could he know that the
+                proposals which she had proudly spurned only four months ago, would
+                now have been most gladly and gratefully received! He was as generous,
+                she doubted not, as the most generous of his sex; but while he was mortal,
+                there must be a triumph.</p>
+              </div>
+
+            <div class="col-6">
+              <h3>Seasonal Specials</h3>
+              <p>What a triumph for him, as she often thought, could he know that the
+                proposals which she had proudly spurned only four months ago, would
+                now have been most gladly and gratefully received! He was as generous,
+                she doubted not, as the most generous of his sex; but while he was mortal,
+                there must be a triumph.</p>
+            </div>
           </div>
         </section>
 
