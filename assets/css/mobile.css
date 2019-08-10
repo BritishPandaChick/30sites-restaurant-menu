@@ -8,6 +8,14 @@ img {
   max-width: 100%;
 }
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+div {
+  display: block;
+}
+
 /* Header */
 header {
   background-image: url("https://ohmy.disney.com/wp-content/uploads/2016/10/ratatouille-sign.png");
@@ -106,5 +114,18 @@ header nav ul li a:hover {
 }
 
 #menu .sub-menu {
-  
+  font-size: 35px;
+  color: #272025;
+}
+
+#menu h4 {
+  font-size: 24px;
+}
+
+#menu span {
+  font-weight: bold;
+}
+
+#menu p {
+  font-size: 20px;
 }

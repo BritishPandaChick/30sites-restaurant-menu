@@ -71,13 +71,21 @@
         <section id="menu">
           <div class="container">
             <h2 class="text-center">Menu</h2>
-            <div class="container">
-              <a href="#"><div class="col-4 sub-menu">Entrees</div></a>
-              <a href="#"><div class="col-4 sub-menu">Plat Principal</div></a>
-              <a href="#"><div class="col-4 sub-menu">Desserts</div></a>
+            <div class="row text-center">
+              <a href="javascript:void(0)" onclick="openMenu(event, 'entrees');">
+                <div class="col-4 sub-menu">Entrees</div>
+              </a>
+
+              <a href="javascript:void(0)" onclick="openMenu(event, 'mainCourses');">
+                <div class="col-4 sub-menu">Plat Principal</div>
+              </a>
+
+              <a href="javascript:void(0)" onclick="openMenu(event, 'desserts');">
+                <div class="col-4 sub-menu">Desserts</div>
+              </a>
             </div>
 
-            <div class="entrees-menu container">
+            <div class="entrees menu container">
               <h4>Soupe a l'oignon<span class="col-3">$5</span></h4>
               <p>Lorem ipsum Linguine Colette Remy Ego</p>
               <hr/>
@@ -98,7 +106,7 @@
               <p>Lorem ipsum Linguine Colette Remy Ego</p>
             </div>
 
-            <div class="container main-course-menu">
+            <div class="container mainCourses menu">
               <h4>Ratatouille<span class="col-3">$5</span></h4>
               <p>Lorem ipsum Linguine Colette Remy Ego</p>
               <hr/>
@@ -119,7 +127,7 @@
               <p>Lorem ipsum Linguine Colette Remy Ego</p>
             </div>
 
-            <div class="desserts-menu container">
+            <div class="desserts container menu">
               <h4>Creme brulee<span class="col-3">$7</span></h4>
               <p>Lorem ipsum Linguine Colette Remy Ego</p>
               <hr/>
