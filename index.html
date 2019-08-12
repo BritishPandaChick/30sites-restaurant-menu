@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>La Ratatouille Bistro</title>
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css">
     <link href="assets/css/style.css" media="screen and (min-width: 1025px)" rel="stylesheet" type="text/css">
     <link href="assets/css/mobile.css" media="screen and (max-width: 640px)" rel="stylesheet" type="text/css">
     <link href="assets/css/responsive.css" media="screen and (min-width: 641px) and (max-width: 1024px)" rel="stylesheet" type="text/css">
@@ -69,85 +70,87 @@
         </section>
 
         <section id="menu">
-          <div class="container">
-            <h2 class="text-center">Menu</h2>
-            <div class="row text-center">
-              <a href="javascript:void(0)" onclick="openMenu(event, 'entrees');">
-                <div class="col-4 sub-menu">Entrees</div>
-              </a>
+          <div class="menu-container menu-black menu-padding-64 menu-xxlarge">
+            <div class="menu-content">
+              <h2 class="menu-center menu-jumbo">Menu</h2>
+              <div class="row menu-center menu-border menu-border-dark-gray">
+                <a href="javascript:void(0)" onclick="openMenu(event, 'entrees');">
+                  <div class="col-4 sub-menu">Entrees</div>
+                </a>
 
-              <a href="javascript:void(0)" onclick="openMenu(event, 'mainCourses');">
-                <div class="col-4 sub-menu">Plat Principal</div>
-              </a>
+                <a href="javascript:void(0)" onclick="openMenu(event, 'mainCourses');">
+                  <div class="col-4 sub-menu">Plat Principal</div>
+                </a>
 
-              <a href="javascript:void(0)" onclick="openMenu(event, 'desserts');">
-                <div class="col-4 sub-menu">Desserts</div>
-              </a>
+                <a href="javascript:void(0)" onclick="openMenu(event, 'desserts');">
+                  <div class="col-4 sub-menu">Desserts</div>
+                </a>
+              </div>
+
+              <div class="menu-container menu-black menu-padding-64 menu-xxlarge entrees">
+                <h4>Soupe a l'oignon<span class="col-3">$5</span></h4>
+                <p>Lorem ipsum Linguine Colette Remy Ego</p>
+                <hr/>
+
+                <h4>Quiche<span class="col-3">$9</span></h4>
+                <p>Lorem ipsum Linguine Colette Remy Ego</p>
+                <hr/>
+
+                <h4>Gougere<span class="col-3">$7</span></h4>
+                <p>Lorem ipsum Linguine Colette Remy Ego</p>
+                <hr/>
+
+                <h4>Croque Monsieur<span class="col-3">$5</span></h4>
+                <p>Lorem ipsum Linguine Colette Remy Ego</p>
+                <hr/>
+
+                <h4>Soup de Gusteau<span class="col-3">$5</span></h4>
+                <p>Lorem ipsum Linguine Colette Remy Ego</p>
+              </div>
+
+              <div class="menu-container menu-black menu-padding-64 menu-xxlarge mainCourses menu">
+                <h4>Ratatouille<span class="col-3">$5</span></h4>
+                <p>Lorem ipsum Linguine Colette Remy Ego</p>
+                <hr/>
+
+                <h4>Sweetbreads a la Gusteau<span class="col-3">$10</span></h4>
+                <p>Lorem ipsum Linguine Colette Remy Ego</p>
+                <hr/>
+
+                <h4>Boeuf Bourguignon<span class="col-3">$10</span></h4>
+                <p>Lorem ipsum Linguine Colette Remy Ego</p>
+                <hr/>
+
+                <h4>Pot au feu<span class="col-3">$10</span></h4>
+                <p>Lorem ipsum Linguine Colette Remy Ego</p>
+                <hr/>
+
+                <h4>Steak fries<span class="col-3">$10</span></h4>
+                <p>Lorem ipsum Linguine Colette Remy Ego</p>
+              </div>
+
+              <div class="menu-container menu-black menu-padding-64 menu-xxlarge desserts">
+                <h4>Creme brulee<span class="col-3">$7</span></h4>
+                <p>Lorem ipsum Linguine Colette Remy Ego</p>
+                <hr/>
+
+                <h4>Cheese plate<span class="col-3">$10</span></h4>
+                <p>Lorem ipsum Linguine Colette Remy Ego</p>
+                <hr/>
+
+                <h4>Tarte Tatin<span class="col-3">$8</span></h4>
+                <p>Lorem ipsum Linguine Colette Remy Ego</p>
+                <hr/>
+
+                <h4>Souffle<span class="col-3">$10</span></h4>
+                <p>Lorem ipsum Linguine Colette Remy Ego</p>
+                <hr/>
+
+                <h4>Floating island<span class="col-3">$10</span></h4>
+                <p>Lorem ipsum Linguine Colette Remy Ego</p>
+              </div>
+              <button class="btn btn-block btn-info">See Daily Specials</button>
             </div>
-
-            <div class="entrees menu container">
-              <h4>Soupe a l'oignon<span class="col-3">$5</span></h4>
-              <p>Lorem ipsum Linguine Colette Remy Ego</p>
-              <hr/>
-
-              <h4>Quiche<span class="col-3">$9</span></h4>
-              <p>Lorem ipsum Linguine Colette Remy Ego</p>
-              <hr/>
-
-              <h4>Gougere<span class="col-3">$7</span></h4>
-              <p>Lorem ipsum Linguine Colette Remy Ego</p>
-              <hr/>
-
-              <h4>Croque Monsieur<span class="col-3">$5</span></h4>
-              <p>Lorem ipsum Linguine Colette Remy Ego</p>
-              <hr/>
-
-              <h4>Soup de Gusteau<span class="col-3">$5</span></h4>
-              <p>Lorem ipsum Linguine Colette Remy Ego</p>
-            </div>
-
-            <div class="container mainCourses menu">
-              <h4>Ratatouille<span class="col-3">$5</span></h4>
-              <p>Lorem ipsum Linguine Colette Remy Ego</p>
-              <hr/>
-
-              <h4>Sweetbreads a la Gusteau<span class="col-3">$10</span></h4>
-              <p>Lorem ipsum Linguine Colette Remy Ego</p>
-              <hr/>
-
-              <h4>Boeuf Bourguignon<span class="col-3">$10</span></h4>
-              <p>Lorem ipsum Linguine Colette Remy Ego</p>
-              <hr/>
-
-              <h4>Pot au feu<span class="col-3">$10</span></h4>
-              <p>Lorem ipsum Linguine Colette Remy Ego</p>
-              <hr/>
-
-              <h4>Steak fries<span class="col-3">$10</span></h4>
-              <p>Lorem ipsum Linguine Colette Remy Ego</p>
-            </div>
-
-            <div class="desserts container menu">
-              <h4>Creme brulee<span class="col-3">$7</span></h4>
-              <p>Lorem ipsum Linguine Colette Remy Ego</p>
-              <hr/>
-
-              <h4>Cheese plate<span class="col-3">$10</span></h4>
-              <p>Lorem ipsum Linguine Colette Remy Ego</p>
-              <hr/>
-
-              <h4>Tarte Tatin<span class="col-3">$8</span></h4>
-              <p>Lorem ipsum Linguine Colette Remy Ego</p>
-              <hr/>
-
-              <h4>Souffle<span class="col-3">$10</span></h4>
-              <p>Lorem ipsum Linguine Colette Remy Ego</p>
-              <hr/>
-
-              <h4>Floating island<span class="col-3">$10</span></h4>
-              <p>Lorem ipsum Linguine Colette Remy Ego</p>
-            </div>
-            <button class="btn btn-block btn-info">See Daily Specials</button>
           </div>
         </section>
 

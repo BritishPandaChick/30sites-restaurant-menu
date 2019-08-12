@@ -1,0 +1,56 @@
+.menu-container:after, .menu-container:before, .menu-panel:after, .menu-panel:before, .menu-row:after, .menu-row:before, .menu-row-padding:after, .menu-row-padding:before, .menu-cell-row:before, .menu-cell-row:after, .menu-clear:after, .menu-clear:before, .menu-bar:before, .menu-bar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu-black, .menu-hover-black:hover {
+  background-color: #272025!important;
+  color: #fff!important;
+}
+
+.menu-padding-64 {
+  padding-top: 64px!important;
+  padding-bottom: 64px!important;
+}
+
+.menu-xxlarge {
+  font-size: 36px!important;
+}
+
+.menu-container {
+  padding: 0.01em 16px;
+}
+
+.menu-content {
+  max-width: 980px;
+}
+
+.menu-content, .menu-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+div {
+  display: block;
+}
+
+.menu-center {
+  text-align: center!important;
+}
+
+.menu-jumbo {
+  font-size: 64px!important;
+}
+
+.menu-border-dark-grey, .menu-hover-border-dark-grey:hover, .menu-border-dark-gray, .menu-hover-border-dark-gray:hover {
+    border-color: #616161!important;
+}
+
+.menu-border {
+  border: 1px solid #ccc!important;
+}
