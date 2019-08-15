@@ -28,49 +28,43 @@
   margin-right: auto;
 }
 
-
-
-
-.menu-col .s4 {
+/* A tags Divs */
+.menu-col {
   width: 33.33333%;
-}
-
-.menu-red, .menu-hover-red:hover {
-  color: #fff!important;
-  background-color: #fc4c58!important;
+  float: left;
+  width: 100%;
 }
 
 .menu-padding-large {
   padding: 12px 24px!important;
 }
 
-.menu-col, .menu-half, .menu-third, .menu-twothird, .menu-threequarter, .menu-quarter {
-  float: left;
-  width: 100%;
+.menu-red, .menu-hover-red:hover {
+  color: #fff!important;
+  background-color: #d40a00!important;
 }
 
-.menu-dark-grey, .menu-hover-dark-grey:hover, .menu-dark-gray, .menu-hover-dark-gray:hover {
-    color: #fff!important;
-    background-color: #616161!important;
+/* Sub Menus */
+.menu-padding-32 {
+  padding-top: 32px!important;
+  padding-bottom: 32px!important;
 }
 
 .menu-right {
   float: right!important;
 }
 
-.menu-round, .menu-round-medium {
-  border-radius: 4px;
-}
-
-.menu-badge, .menu-tag {
-    background-color: #000;
-    color: #fff;
+.menu-tag {
     display: inline-block;
     padding-left: 8px;
     padding-right: 8px;
     text-align: center;
+    border-radius: 4px;
 }
 
-.menu-text-grey, .menu-hover-text-grey:hover, .menu-text-gray, .menu-hover-text-gray:hover {
-    color: #757575!important;
+.menu-tag {
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
 }

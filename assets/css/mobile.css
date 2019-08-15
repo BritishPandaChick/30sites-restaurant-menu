@@ -110,13 +110,18 @@ header nav ul li a:hover {
   border: 1px solid #d40a00;
 }
 
-#menu .menu-tabs a {
+#menu .menu-tabs {
   font-size: 20px;
   color: #d40a00;
 }
 
 #menu .menu-border, .menu-hover-border:hover {
-    border-color: #d40a00!important;
+  border-color: #d40a00!important;
+}
+
+#menu nav a {
+  color: #d40a00;
+  cursor: pointer;
 }
 
 #menu h4 {
@@ -131,10 +136,10 @@ header nav ul li a:hover {
   font-size: 20px;
 }
 
-#menu .entrees {
+#menu #entrees {
   display: block;
 }
 
-#menu .mainCourses, .desserts {
+#menu #mainCourses, .desserts {
   display: none;
 }
