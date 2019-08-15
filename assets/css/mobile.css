@@ -95,6 +95,10 @@ header nav ul li a:hover {
 }
 
 /* Menu */
+#menu {
+  width: 100%;
+}
+
 #menu div {
   display: block;
 }
@@ -136,10 +140,66 @@ header nav ul li a:hover {
   font-size: 20px;
 }
 
-#menu #entrees {
+#entrees {
   display: block;
 }
 
-#menu #mainCourses, .desserts {
+#mainCourses, #desserts {
   display: none;
+}
+
+/* Events */
+#events {
+  width: 100%;
+  padding: 20px;
+}
+
+#events h2 {
+  font-family: "Barriecito", cursive;
+  font-size: 45px;
+  color: #d40a00;
+}
+
+#events p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* New */
+#new {
+  width: 100%;
+  padding: 20px;
+}
+
+#new h2 {
+  font-family: "Barriecito", cursive;
+  font-size: 45px;
+  color: #d40a00;
+}
+
+#new h3 {
+  font-size: 35px;
+  padding: 15px 0;
+}
+
+#new p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* Footer */
+footer {
+  border: 2px solid red;
+  width: 100%;
+  background-color: #d40a00;
+}
+
+footer p {
+  font-size: 18px;
+  color: #fff;
+}
+
+footer nav ul li {
+  display: inline-block;
+  padding: 20px;
 }
