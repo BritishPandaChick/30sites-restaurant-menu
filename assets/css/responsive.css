@@ -1,0 +1,225 @@
+/* Base styles */
+body {
+  font-family: 'Lora', serif;
+  color: #272025;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Header */
+header {
+  background-image: url("https://ohmy.disney.com/wp-content/uploads/2016/10/ratatouille-sign.png");
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+header h1 {
+  font-size: 65px;
+  font-family: "Barriecito", cursive;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+header nav {
+  display: inline-block;
+}
+
+header nav ul li a {
+  font-size: 20px;
+  color: #fff;
+}
+
+header nav ul li a:hover {
+  color: #d40a00;
+}
+
+/* Info */
+#info {
+  background-color: #d40a00;
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+}
+
+#info h2 {
+  font-family: "Barriecito", cursive;
+  font-size: 55px;
+  color: #fff;
+}
+
+#info h3 {
+  font-size: 45px;
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+#info p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+#info h4 {
+  font-size: 35px;
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+/* About */
+#about {
+  width: 100%;
+  padding: 30px;
+}
+
+#about h2 {
+  font-size: 55px;
+  font-family: "Barriecito", cursive;
+  color: #d40a00;
+}
+
+#about p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* Hours */
+#hours {
+  width: 100%;
+  height: 320px;
+  padding: 20px;
+}
+
+#hours h2 {
+  font-size: 55px;
+  font-family: "Barriecito", cursive;
+  color: #d40a00;
+}
+
+#hours p {
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 15px;
+}
+
+/* Menu */
+#menu {
+  width: 100%;
+}
+
+#menu div {
+  display: block;
+}
+
+#menu h2 {
+  font-family: "Barriecito", cursive;
+  font-size: 55px;
+  color: #d40a00;
+  margin-bottom: 64px;
+}
+
+#menu nav {
+  border: 1px solid #d40a00;
+}
+
+#menu .menu-tabs {
+  font-size: 20px;
+  color: #d40a00;
+}
+
+#menu .menu-border, .menu-hover-border:hover {
+  border-color: #d40a00!important;
+}
+
+#menu nav a {
+  color: #d40a00;
+  cursor: pointer;
+}
+
+#menu h4 {
+  font-size: 30px;
+}
+
+#menu span {
+  font-weight: bold;
+}
+
+#menu p {
+  font-size: 20px;
+}
+
+#entrees {
+  display: block;
+}
+
+#mainCourses, #desserts {
+  display: none;
+}
+
+/* Events */
+#events {
+  width: 100%;
+  padding: 20px;
+  height: 350px;
+}
+
+#events h2 {
+  font-family: "Barriecito", cursive;
+  font-size: 45px;
+  color: #d40a00;
+}
+
+#events p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* New */
+#new {
+  width: 100%;
+  padding: 20px;
+  height: 650px;
+}
+
+#new h2 {
+  font-family: "Barriecito", cursive;
+  font-size: 55px;
+  color: #d40a00;
+}
+
+#new h3 {
+  font-size: 45px;
+  padding: 15px 0;
+}
+
+#new p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  background-color: #d40a00;
+}
+
+footer p {
+  font-size: 18px;
+  color: #fff;
+}
+
+footer nav ul li {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+footer nav ul li i {
+  color: #fff;
+}
+
+footer nav ul li i:hover {
+  color: #fc4c58;
+}
