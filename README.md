@@ -1,11 +1,16 @@
-# 30 Days, 30 Sites Restaurant Menu
-Day Five prompt for 30 Days, 30 Sites challenge. Created a restaurant menu website. Made with HTML, CSS, Bootstrap and JavaScript.
+# 30 Days, 30 Sites Day 5: Restaurant Menu
+Restaurant for La Ratatouille Bistro
+
+## Tech Stack
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
 
 ## Instructions
-Clone the repo or download zip file. Open index.html to see website in browser. Click on the tabs of the menu to see what Remy has on the menu.
-
-## Contributions
-I will not be accepting any pull requests.
+1. Clone the repo or download zip file. 
+2. Open index.html in browser. 
+3. Click on the tabs of the menu to see what Remy has on the menu.
 
 ## Acknowledgements
 * W3Schools
